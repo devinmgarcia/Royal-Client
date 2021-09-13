@@ -11,7 +11,7 @@ export const Navbar = () => {
          <button onClick={()=>{history.push("/Shop")}}>SHOP</button>
          <button>ABOUT</button>
          <button onClick={()=>{history.push("/")}}>ROYAL PAIN IN THE GLASS</button>
-         <button>SIGN IN</button>
+         <button onClick={()=>{history.push("/login")}}>SIGN IN</button>
          <button>CART</button>
         </div>
     )
