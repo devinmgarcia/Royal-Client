@@ -1,6 +1,7 @@
 .products_wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -18,4 +19,12 @@
 
 .card_right {
     margin-left: auto;
+}
+
+.edit_image {
+    height: 8rem;
+}
+
+.product_image {
+    height: 5rem;
 }
